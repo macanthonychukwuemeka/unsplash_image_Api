@@ -5,7 +5,7 @@ import { useGlobalContext } from "./context"
 const url = `https://api.unsplash.com/search/photos/?client_id=${
   import.meta.env.VITE_API_KEY
 }`
-
+//the env directory wont show in gitHub folders after installation, beacuse it has been added to gitIgnore directory.
 // "https://api.unsplash.com/search/photos/?client_id=G0FZOY9nH3k3tC7UW9sxI4dBXdTWBHJZeAMyvzRGBOc&query=office"
 
 const Gallery = () => {
